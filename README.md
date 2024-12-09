@@ -7,6 +7,18 @@
 <h3>Case Study: Data Cleaning and Preparation for Layoffs Dataset</h3>
 <h4>Introduction</h4>
 <p>The layoffs dataset required extensive cleaning and preparation to ensure data integrity and consistency for further analysis. The SQL script provided outlines the steps taken to duplicate the dataset, remove duplicates, standardize data, handle null values, and eliminate unnecessary columns or rows. This case study explores the rationale, execution, and outcomes of these steps.</p>
+<h4>Dataset Description</h4>
+<ol>
+    <li>company - Name of the Company</li>
+    <li>location - Location of the Company</li>
+    <li>industry - Type of Industry the company is</li>
+    <li>total_laid_off - Number of employees laid off</li>
+    <li>percentage_laid_off - Percentage of employees laid off</li>
+    <li>date - Date of layoff</li>
+    <li>stage - Stage of the company</li>
+    <li>country - Country of company located</li>
+    <li>funds_raised_millions - Funds raised by the company (in Millions $)</li>
+</ol>
 
 <h4>0. Duplicating the Dataset</h4>
 <p>To prevent accidental alterations to the original dataset, a duplicate table layoffs_db was created. This best practice ensures that the original data remains intact and available for reference or rollback if required.</p>
