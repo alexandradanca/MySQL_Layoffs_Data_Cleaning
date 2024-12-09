@@ -67,7 +67,7 @@
 <br/><br/>
 <h4>4. Removing rows with excessive nulls and removing unnecessary columns</h4>
 <p>Rows where total_laid_off and percentage_laid_off were both NULL were deleted as they provided no actionable information.</p>
-
+<p>The row_num column, which was temporarily added to facilitate duplicate removal, was dropped as it no longer served a purpose.</p>
 ![image](https://github.com/user-attachments/assets/a994095a-5986-4898-9d2f-976e682c4740)
 
 <img src="./outputs/4.multiple_column_with_null_val.png">
