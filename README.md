@@ -6,6 +6,7 @@
 </h1>
 <h3>Case Study: Data Cleaning and Preparation for Layoffs Dataset</h3>
 <h4>Introduction</h4>
+<p>This dataset contains information of layoffs in different industries around the world from the years of the covid-19 pandemic, between the year 2020 to 2023.</p>
 <p>The layoffs dataset required extensive cleaning and preparation to ensure data integrity and consistency for further analysis. The SQL script provided outlines the steps taken to duplicate the dataset, remove duplicates, standardize data, handle null values, and eliminate unnecessary columns or rows. This case study explores the rationale, execution, and outcomes of these steps.</p>
 <h4>Dataset Description</h4>
 <ol>
